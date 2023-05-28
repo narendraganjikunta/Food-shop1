@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../CSS/Home.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <Header class="Header container">
+
+    <head class="head">
+      <img class="logo" src="../ASSETS/logo.webp" alt="logo.png">
+      <div>
+        <nav class="nav">
+          <a href="#home" target="_blank">Home</a>
+          <a href="#dish" target="_blank">Dishes</a>
+          <a href="#about" target="_blank">About</a>
+          <a href="#menu" target="_blank">Menu</a>
+          <a href="#reviews" target="_blank">Review</a>
+          <a href="">Order</a>
+
+        </nav>
+      </div>
+      <div class="d-flex gap-3 icons">
+        <div><i class="icon bi bi-list "></i></div>
+        <div><i class="icon bi bi-search"></i></div>
+        <div><i class="icon bi bi-heart"></i></div>
+        <div><i class="icon bi bi-bag-heart"></i></div>
+      </div>
+    </head>
+  </Header>
+  <!-- Slider pages -->
+
+  <div id="carouselExampleIndicators" class="carousel slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner container mt-2">
+      <div class="carousel-item active ">
+        <div class="carousel d-flex justify-content-center align-items-center">
+          <div class="slide-one">
+            <h5 class="text-success ">Our Special Dish</h5>
+            <h1>Chicken Biryani</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis fuga maiores praesentium nisi
+              explicabo nulla adipisci alias molestiae odit.</p>
+            <button class="order border text-white p-1 rounded">Order Now</button>
+          </div>
+          <img src="../ASSETS/chicken1.png" class="image1 " alt="..." />
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel d-flex justify-content-center align-items-center">
+          <div class="slide-one">
+            <h5 class="text-success ">Our Special Dish</h5>
+            <h1>Crispy Spring Rolls</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis fuga maiores praesentium nisi
+              explicabo nulla adipisci alias molestiae odit.</p>
+            <button class="order  border text-white p-1 rounded">Order Now</button>
+          </div>
+          <img src="../ASSETS/chicken1.png" class="image1 " alt="..." />
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel d-flex justify-content-center align-items-center">
+          <div class="slide-one">
+            <h5 class="text-success ">Our Special Dish</h5>
+            <h1>Chicken Biryani</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nobis fuga maiores praesentium nisi
+              explicabo nulla adipisci alias molestiae odit.</p>
+            <button class="order  border text-white p-1 rounded">Order Now</button>
+          </div>
+          <img src="../ASSETS/chicken1.png" class="image1 " alt="..." />
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark rounded opacity-50" aria-hidden="true"></span>
+      <span class="visually-hidden ">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark rounded opacity-50" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- OUR DISHES -->
+
+
+  <section id="dish">
+    <div class="dishes container mt-5">
+      <div class="dish-head text-center">
+        <h1 class="text-success">Our Dishes</h1>
+        <h1>POPULAR DISHES</h1>
+      </div>
+      <div class="row mt-5">
+
+        <div class="dish-cards ">
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About Us -->
+
+  <section id="bout" class="container mt-5">
+    <h4 class="text-success text-center">About Us</h4>
+    <h3 class="text-center">Why Choose Us</h3 class="text-center">
+    <div class="about d-flex">
+      <img class="w-50" src="../ASSETS/chicken1.png" alt="">
+      <div class="about-detailes">
+        <h2>Best Food In The Country</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, obcaecati quibusdam non numquam
+          asperiores odio facilis maiores.</p>
+        <div class="btns d-flex">
+          <button class="btn1 border bg-success rounded p-2"><i class="bi bi-truck "></i> Free Delivery</button>
+          <button class="btn2 border bg-success rounded p-2"><i class="bi bi-currency-dollar"></i>Easy Payments</button>
+          <button class="btn3 border bg-success rounded p-2"><i class="bi bi-headset"></i> 24/7 Services</button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- menu -->
+
+  <section id="menu" class="menu m-5">
+    <h4 class="text-center text-success ">Our Menu</h4>
+    <h1 class="text-center py-2">Today's Speciality</h1>
+
+    <div class="menu-items container">
+      <div class="items">
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- reviews -->
+
+  <section id="reviews" class="reviews">
+    <h4 class="text-success text-center pt-4">Customer's Riview</h4>
+    <h1 class="text-center">What They Say</h1>
+    <div class="review container mt-4">
+      <div class="row">
+        <div class="review1 col-md-6">
+          <div class="d-flex align-item-center justify-content-evenly">
+            <img class="review-image" src="../ASSETS/images/men.jpg" />
+            <div class="men-detailes ">
+              <h6>Jhon deo</h6>
+              <h6><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i
+                  class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i
+                  class="bi bi-star-half text-success"></i></h6>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quidem autem porro! Expedita, soluta.
+            Mollitia nobis laboriosam rerum repellat, asperiores impedit nesciunt maxime hic saepe, dolores ducimus
+            itaque dicta pariatur?</p>
+        </div>
+        <div class="review2 col-md-6">
+          <div class="d-flex align-item-center justify-content-evenly">
+            <img class="review-image" src="../ASSETS/images/men2.jpg" />
+            <div class="men-detailes ">
+              <h6>Jhon deo</h6>
+              <h6><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i
+                  class="bi bi-star-fill text-success"></i><i class="bi bi-star-half text-success"></i></h6>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quidem autem porro! Expedita, soluta.
+            Mollitia nobis laboriosam rerum repellat, asperiores impedit nesciunt maxime hic saepe, dolores ducimus
+            itaque dicta pariatur?</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Orders -->
+
+  <section id="order ">
+    <h4 class="text-center text-success mt-4">Order Now</h4>
+    <h1 class="text-center">Free And Fast</h1>
+    <div class="inputs d-flex container justify-content-evenly gap-2">
+      <div class="form-one  d-flex flex-column w-50">
+        <form>
+          <label for="name">Your Name</label>
+          <input type="text" placeholder="Enter Your Name" name="name">
+          <label for="order">Your Order</label>
+          <input type="text" pattern="0-9" placeholder=" Enter Food Name" name="rder">
+          <label for="orders">How much</label>
+          <input type="text" placeholder=" How Many Orders" name="orders">
+          <label for="address">Your Address</label>
+          <input type="text-area" placeholder="Enter Your Address" name="address">
+        </form>
+      </div>
+      <div class="form-two d-flex flex-column w-50 gap-2">
+        <form>
+          <label for="tel">Your number</label>
+          <input type="tel" placeholder="Enter Your number" name="tel">
+          <label for="Food">Additionsl Food</label>
+          <input type="text" pattern="0-9" placeholder=" Enter Food Name" name="food">
+          <label for="data">Date and Time</label>
+          <input type="date" placeholder=" How Many Orders" name="orders">
+          <label for="Message">Your Message</label>
+          <input type="message" placeholder="Enter Your Address" name="message">
+        </form>
+      </div>
+
+    </div>
+    <div class="text-center pt-3"><button class="bg-danger rounded border">Order Now</button></div>
+
+  </section>
+
+  <!-- footer -->
+  <footer class="container mt-4">
+    <div class="row justify-content-center align-item-center">
+      <div class="col-sm-3 justify-content-center align-item-center">
+        <h1>Locations</h1>
+        <div>India</div>
+        <div>Japan</div>
+        <div>Russia</div>
+        <div>USA</div>
+        <div>France</div>
+      </div>
+      <div class="col-sm-3"> 
+        <h1>Quick Links</h1>
+        <div>Home</div>
+        <div>Dhishes</div>
+        <div>About</div>
+        <div>Menu</div>
+        <div>Review</div>
+        <div>Order</div>
+      </div>
+      <div class="col-sm-3">
+        <h1>Contact Info</h1>
+        <div>+123+456+789</div>
+        <div>+111+222+333</div>
+        <div>sam7824@gmail.com</div>
+        <div>sample@gmail.com</div>
+        <div>resto9999@gmail.com</div>
+      </div>
+      <div class="col-sm-3"> 
+        <h1>Follow Us </h1>
+        <div>Facebook</div>
+        <div>Twitter</div>
+        <div>Instagram</div>
+        <div>LinkedIn</div>
+      </div>
+    </div>
+    <h2 class="text-center mt-4">Copyright @2023 By <span class="text-success">G.Narendra</span></h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="../JS/index.js"></script>
+</body>
+
+</html>
